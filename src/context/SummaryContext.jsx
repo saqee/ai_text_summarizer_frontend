@@ -6,7 +6,7 @@ export const SummaryContext = createContext()
 export const SummaryProvider = ({ children }) => {
   const [history, setHistory] = useState([])
   const [loading, setLoading] = useState(false)
-  const API_BASE = "https://ai-text-summarizer-backend-0vfv.onrender.com/"
+  const API_BASE = "https://ai-text-summarizer-backend-0vfv.onrender.com"
   useEffect(() => {
     let isMounted = true
 
